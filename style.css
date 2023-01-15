@@ -1,6 +1,6 @@
 body{
   background-color: #bdb76b;
-  color: #dddddd;
+  color: black;
   font-family: Copperplate, Papyrus, fantasy;
   margin: 10% 20%;
 }
@@ -14,15 +14,25 @@ body{
 }
 
 h1{
-  color: black
+  color: black; 
+  
     
 }
 
 img {
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  width: 150px;
+  width: 180px; 
+ top:25%;
+  
 }
-
-<img src="https://i.ibb.co/3CcSNyZ/IMG-1187.jpg" alt="Chris Headshot">
+.cropped { 
+  width: 180px;
+  height: 180px;
+  margin-left: 80%;  
+  border: 5px solid black;
+  overflow: hidden; 
+  object-fit: cover; 
+  
+}
+.cropped img {
+  margin: -10px 0px  -180px;
+}
