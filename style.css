@@ -1,5 +1,5 @@
 body{
-  background-color: #bdb76b;
+  background-color: #f8f8ff;
   color: black;
   font-family: Copperplate, Papyrus, fantasy;
   margin: 10% 20%;
@@ -20,14 +20,12 @@ h1{
 }
 
 img {
-  width: 180px; 
- top:25%;
+  width: 200px; 
   
 }
 .cropped { 
-  width: 180px;
-  height: 180px;
-  margin-left: 80%;  
+  width: 200px;
+  height: 200px;  
   border: 5px solid black;
   overflow: hidden; 
   object-fit: cover; 
